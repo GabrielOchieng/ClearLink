@@ -5,7 +5,7 @@ import Advantage from "./components/advantage/Advantage";
 import Shopify from "./components/shopify/Shopify";
 import Faq from "./components/faq/Faq";
 import Offers from "./components/offers/Offers";
-import Find from "./components/find/find";
+import Find from "./components/find/Find";
 import Footer from "./components/footer/Footer";
 
 function App() {
