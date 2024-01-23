@@ -68,10 +68,14 @@
 
 .inputDiv {
   padding: 10px;
-  background-color: lightgrey;
-  border-radius: 5px;
+  background-color: rgb(228, 225, 225);
+  border-radius: 10px;
 }
 
 .inputDiv h3 {
   margin-bottom: 5px;
+}
+
+.inputDiv p {
+  color: gray;
 }

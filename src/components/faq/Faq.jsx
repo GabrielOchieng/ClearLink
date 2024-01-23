@@ -63,7 +63,7 @@ const Faq = () => {
         {isShown && (
           <div className="faqanswdiv inputDiv">
             <h3>{faq.question}</h3>
-            {faq.answer}
+            <p>{faq.answer}</p>
             <CiCircleMinus
               onClick={() => setShownIndex(!shownIndex)}
               className="minusicon faqicon"
