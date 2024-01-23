@@ -42,9 +42,9 @@
 
 .faqsright .faqquestdiv {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   gap: 5px;
-  padding: 20px 0;
+  padding: 20px 20px 20px 0;
 }
 
 .mainfaqdiv {
@@ -55,26 +55,18 @@
   font-size: 24px;
   border-radius: 50%;
   position: absolute;
-  top: 20px;
-  right: -25px;
+  top: 45px;
+  right: 20px;
   cursor: pointer;
 }
 
-/* .bg-gray {
-  background-color: gray;
-} */
+.circplusicon {
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
-/* .faqanswdiv {
-  position: relative;
-} */
-
-/* .faqanswdiv .minusicon {
-  position: absolute;
-  top: -45px;
-  right: 10px;
-} */
-
-.displayed {
+.inputDiv {
   padding: 10px;
   background-color: lightgrey;
   border-radius: 5px;

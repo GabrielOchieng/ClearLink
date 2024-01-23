@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { CiCirclePlus } from "react-icons/ci";
 import { CiCircleMinus } from "react-icons/ci";
 import "./faq.css";
@@ -45,11 +45,10 @@ const faqs = [
 
 const Faq = () => {
   const [shownIndex, setShownIndex] = useState(0);
-  const [isActive, setIsActive] = useState(false);
 
-  // const handleShow = () => {
-
-  // };
+  if (shownIndex === 4) {
+    console.log(shownIndex);
+  }
 
   const displayedFaqs = faqs.map((faq, index) => {
     const isShown = index === shownIndex;
@@ -57,12 +56,13 @@ const Faq = () => {
     return (
       <div key={faq.id} className="mainfaqdiv">
         <div onClick={() => setShownIndex(index)} className="faqquestdiv">
-          <h3>{faq.question}</h3>{" "}
-          {!isShown && <CiCirclePlus className="faqicon" />}
+          {!isShown && <h3>{faq.question}</h3>}
+          {!isShown && <CiCirclePlus className="circplusicon" />}
         </div>
         {!isShown && <hr />}
         {isShown && (
-          <div className="faqanswdiv">
+          <div className="faqanswdiv inputDiv">
+            <h3>{faq.question}</h3>
             {faq.answer}
             <CiCircleMinus
               onClick={() => setShownIndex(!shownIndex)}
