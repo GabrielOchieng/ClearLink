@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footercont {
+  margin-top: 20px;
+  width: 100%;
+  background-color: lightgray;
+}
+.footer {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftfooter p {
+  color: gray;
+}
+
+.rightfooter div {
+  display: flex;
+  gap: 15px;
+  padding-right: 30px;
+}
+
+.rightfooter a {
+  color: gray;
+  text-decoration: none;
+}

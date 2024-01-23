@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.find {
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.find .clearlink {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.find .clearlink p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.find .guides {
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 50px; */
+}
+
+.find .guides .guideitems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.find .guides .guideitems h6 {
+  color: gray;
+  font-size: 20px;
+  margin: 0;
+}
+.find .guides .guideitems li {
+  list-style: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.find .playstore {
+  flex: 1;
+}
+
+.playstore .title {
+  margin-bottom: 15px;
+}
+.playstore .title h3 a {
+  text-decoration: none;
+  color: blue;
+}
+
+.playstore .images img {
+  margin-bottom: 5px;
+}

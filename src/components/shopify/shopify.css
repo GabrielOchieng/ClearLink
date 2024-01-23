@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.shopifycontainer {
+  background-color: rgb(223, 217, 217);
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.shopify {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px;
+}
+
+.shopify .shopifyleft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.shopimg img {
+  width: 100px;
+  height: 50px;
+}
+.shopifyleft .staricon .iconst {
+  margin-right: 5px;
+  color: orange;
+}
+
+.shopifyleft .words p {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.lowestshop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lowestshop .pmdiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.lowestshop .arrowiconshop {
+  display: flex;
+  gap: 40px;
+}
+
+.arrowiconshop .shopiicon {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.shopifyright img {
+  height: 380px;
+  width: 100%;
+}
