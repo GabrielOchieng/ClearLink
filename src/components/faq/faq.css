@@ -71,3 +71,7 @@
   background-color: lightgrey;
   border-radius: 5px;
 }
+
+.inputDiv h3 {
+  margin-bottom: 5px;
+}
