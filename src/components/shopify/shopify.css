@@ -66,13 +66,20 @@
   height: 380px;
   width: 100%;
 }
-
-@media (max-width: 480px) {
+@media (max-width: 1090px) {
   .shopify {
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
 
+  .lowestshop .arrowiconshop {
+    margin-bottom: 20px;
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 480px) {
   .shopify .shopimg {
     text-align: center;
   }
@@ -93,11 +100,6 @@
     display: flex;
     align-items: center;
     gap: 5px;
-  }
-
-  .lowestshop .arrowiconshop {
-    margin-bottom: 20px;
-    transform: rotate(90deg);
   }
 
   .shopifyright img {

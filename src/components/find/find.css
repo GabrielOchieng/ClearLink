@@ -68,7 +68,7 @@
   margin-bottom: 5px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 830px) {
   .find {
     margin-top: 10px;
     padding-top: 10px;
@@ -77,13 +77,22 @@
     flex-direction: column;
     justify-content: space-between;
   }
-
   .find .guides {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
+    width: 100%;
   }
 
+  .find .guides .guideitems {
+    width: 22%;
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .find .guides {
+    flex-wrap: wrap;
+  }
   .find .guides .guideitems {
     width: 45%;
     flex-direction: column;

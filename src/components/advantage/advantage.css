@@ -82,7 +82,23 @@
   height: 330px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1090px) {
+  .right .arrow .imgofarrow {
+    height: 125px;
+    position: absolute;
+    top: 130px;
+    left: 55px;
+    z-index: 999;
+  }
+  .bimagescont img {
+    height: 315px;
+  }
+  .bimagescont {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 780px) {
   .advantage {
     flex-direction: column;
     height: auto;
