@@ -49,6 +49,7 @@
   font-size: 16px;
   margin-bottom: 10px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .find .playstore {
@@ -65,4 +66,36 @@
 
 .playstore .images img {
   margin-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+  .find {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .find .guides {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .find .guides .guideitems {
+    width: 45%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .playstore .title h3 a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .playstore .images img {
+    margin: 5px;
+  }
 }
