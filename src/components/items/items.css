@@ -32,3 +32,24 @@
     margin-left: 15px;
   }
 }
+
+@media (max-width: 480px) {
+  .items .pics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-items: center;
+  }
+
+  .itemimg {
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+    object-fit: contain;
+  }
+
+  .petty {
+    height: 20px;
+    margin-top: 20px;
+  }
+}

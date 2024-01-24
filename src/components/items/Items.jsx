@@ -24,7 +24,12 @@ const Items = () => {
         <img src={coinbase} alt="item" className="itemimg" />
         <img src={dropbox} alt="item" className="itemimg" />
         <img src={intercom} alt="item" className="itemimg" />
-        <img src={marvel} alt="item" className="itemimg" style={imageStyle} />
+        <img
+          src={marvel}
+          alt="item"
+          className="itemimg petty"
+          style={imageStyle}
+        />
         <img src={automattic} alt="item" className="itemimg" />
       </div>
     </div>
