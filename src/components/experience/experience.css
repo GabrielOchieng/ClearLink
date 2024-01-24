@@ -239,7 +239,12 @@ button {
   }
 }
 @media (max-width: 440px) {
+  .imagecontainer .images .avatarimg {
+    width: 45%;
+    height: 100px;
+    position: relative;
+  }
   .lady1img {
-    padding-top: 60px;
+    padding-top: 0px;
   }
 }
