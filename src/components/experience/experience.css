@@ -207,6 +207,7 @@ button {
   .imagecontainer {
     width: 95%;
     margin-top: 20px;
+    padding: 5px;
   }
 
   .imagecontainer .images .avatarimg {
@@ -215,5 +216,17 @@ button {
     width: 45%;
     height: 160px;
     position: relative;
+  }
+
+  .avatarimg img {
+    max-width: 100%;
+  }
+
+  .lady1img {
+    padding-top: 16px;
+  }
+
+  .man3img {
+    padding-top: 20px;
   }
 }

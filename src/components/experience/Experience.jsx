@@ -116,7 +116,7 @@ const Experience = () => {
             </div>
 
             <div className="avatarimg lady1">
-              <img src={lady1} alt="avatar" />
+              <img src={lady1} alt="avatar" className="lady1img" />
             </div>
 
             <div className="avatarimg man2 hang1">
