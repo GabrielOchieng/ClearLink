@@ -97,6 +97,30 @@
     margin-right: 0;
   }
 }
+@media (max-width: 1030px) {
+  .bimagescont img {
+    width: 280px;
+  }
+
+  .right .arrow .imgofarrow {
+    height: 125px;
+    position: absolute;
+    top: 170px;
+    left: 45px;
+  }
+}
+@media (max-width: 892px) {
+  .bimagescont img {
+    width: 250px;
+  }
+
+  .right .arrow .imgofarrow {
+    height: 200px;
+    position: absolute;
+    top: 130px;
+    left: -60px;
+  }
+}
 
 @media (max-width: 780px) {
   .advantage {
