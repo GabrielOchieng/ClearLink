@@ -61,3 +61,67 @@
   background-color: blue;
   color: white;
 }
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  display: none;
+  opacity: 0;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    align-items: flex-start;
+    /* justify-content: start; */
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .bigNav {
+    display: none;
+  }
+  .bigNavbtns {
+    display: none;
+    opacity: 0;
+  }
+
+  .smallNav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .smallNav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-btn {
+    display: block;
+    opacity: 1;
+
+    top: 15px;
+    right: 10px;
+  }
+  .nav_open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .buttons button {
+    border-radius: 20px;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}

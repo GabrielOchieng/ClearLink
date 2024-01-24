@@ -238,7 +238,7 @@ button {
     bottom: 0;
   }
 }
-@media (max-width: 440px) {
+@media (max-width: 330px) {
   .imagecontainer .images .avatarimg {
     width: 45%;
     height: 100px;
@@ -252,7 +252,7 @@ button {
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 330px) {
   .imagecontainer .icons {
     gap: 5px;
   }
