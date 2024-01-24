@@ -232,13 +232,15 @@ button {
     position: absolute;
     bottom: 0;
   }
-
+  .lady1img {
+    padding-top: 60px;
+  }
   .lady3img {
     position: absolute;
     bottom: 0;
   }
 }
-@media (max-width: 330px) {
+@media (max-width: 390px) {
   .imagecontainer .images .avatarimg {
     width: 45%;
     height: 100px;
@@ -256,9 +258,11 @@ button {
   .imagecontainer .icons {
     gap: 5px;
   }
-
+  .lady1img {
+    padding-top: 0px;
+  }
   .imagecontainer .icons .icon {
-    margin-right: 5px;
+    margin-right: 0px;
     font-size: 26px;
   }
 }
