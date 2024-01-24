@@ -79,6 +79,7 @@
   .offers {
     flex-direction: column;
     gap: 0;
+    overflow-x: hidden;
   }
 
   .beuimg img {
