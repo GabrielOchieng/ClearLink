@@ -115,7 +115,7 @@ const Experience = () => {
               <img src={man1} alt="avatar" className="hangimg" />
             </div>
 
-            <div className="avatarimg lady1">
+            <div className="avatarimg lady1 hanglady1">
               <img src={lady1} alt="avatar" className="lady1img" />
             </div>
 
@@ -132,7 +132,7 @@ const Experience = () => {
             </div>
 
             <div className="avatarimg lady3">
-              <img src={lady3} alt="avatar" />
+              <img src={lady3} alt="avatar" className="lady3img" />
             </div>
           </div>
           <div className="icons">

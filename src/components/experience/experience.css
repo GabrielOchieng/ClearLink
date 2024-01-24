@@ -130,10 +130,9 @@ button {
   position: relative;
 }
 
-.hang3 {
+.hanglady1 {
   position: relative;
 }
-
 .hangimg {
   position: absolute;
   bottom: 0;
@@ -221,12 +220,29 @@ button {
   .avatarimg img {
     max-width: 100%;
   }
-
   .lady1img {
-    padding-top: 16px;
+    padding-top: 5px;
   }
 
+  .lady3img {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 440px) {
   .man3img {
-    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .lady3img {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media (max-width: 440px) {
+  .lady1img {
+    padding-top: 60px;
   }
 }
