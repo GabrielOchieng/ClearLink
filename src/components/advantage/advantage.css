@@ -81,3 +81,66 @@
 .bimagescont img {
   height: 330px;
 }
+
+@media (max-width: 480px) {
+  .advantage {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 420px;
+  }
+
+  .advantage .left {
+    gap: 20px;
+    width: 100%;
+  }
+  .topdiv h3 {
+    font-size: 26px;
+    margin: 5px 0;
+  }
+  .topdiv .lowerp {
+    font-size: 20px;
+  }
+
+  .advantage .left .lowerdiv {
+    gap: 20px;
+  }
+
+  .lowerdiv .divitem {
+    width: 45%;
+  }
+
+  .lowerdiv .divitem .ldicon {
+    margin-bottom: 5px;
+  }
+
+  .lowerdiv .divitem h4 {
+    margin-bottom: 5px;
+  }
+
+  .advantage .right {
+    position: block;
+  }
+
+  .right .arrow .imgofarrow {
+    height: 125px;
+    position: block;
+    top: -10px;
+    left: 55px;
+
+    z-index: 999;
+  }
+
+  .bimagescont {
+    position: block;
+    top: 10px;
+    margin-top: 85px;
+  }
+
+  .bimagescont img {
+    height: 330px;
+    width: 95%;
+    object-fit: contain;
+  }
+}

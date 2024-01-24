@@ -1,8 +1,5 @@
 import React from "react";
-import { SiAudioboom } from "react-icons/si";
 import { IoVideocamOutline } from "react-icons/io5";
-import { GrFormSchedule } from "react-icons/gr";
-import { MdOutlineTimer } from "react-icons/md";
 import arrow from "../../assets/arrow.png";
 import imagesadv from "../../assets/images-adv.png";
 import "./advantage.css";
