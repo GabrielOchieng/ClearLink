@@ -108,13 +108,6 @@ button {
   margin-left: 20px;
 }
 
-/* .imagecontainer .images .avatarimg {
-  object-fit: cover;
-  width: 30%;
-  height: 150px;
-  margin: 5px;
-} */
-
 .imagecontainer .images .avatarimg {
   border-radius: 5px;
   margin: 5px;
@@ -195,4 +188,32 @@ button {
   margin-right: 10px;
   color: blue;
   font-size: 30px;
+}
+
+@media (max-width: 480px) {
+  .experience {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .experience .header {
+    font-size: 26px;
+  }
+
+  .experience .para {
+    font-size: 18px;
+  }
+
+  .imagecontainer {
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .imagecontainer .images .avatarimg {
+    border-radius: 5px;
+    margin: 5px;
+    width: 45%;
+    height: 160px;
+    position: relative;
+  }
 }
