@@ -79,3 +79,27 @@
 .inputDiv p {
   color: gray;
 }
+
+@media (max-width: 480px) {
+  .faqs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .faqsleft h2 {
+    font-size: 20px;
+  }
+
+  .faqsleft p {
+    color: gray;
+    font-size: 18px;
+  }
+
+  .faqicon {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    cursor: pointer;
+  }
+}
