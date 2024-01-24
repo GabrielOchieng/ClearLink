@@ -66,3 +66,43 @@
   height: 380px;
   width: 100%;
 }
+
+@media (max-width: 480px) {
+  .shopify {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shopify .shopimg {
+    text-align: center;
+  }
+
+  .staricon {
+    text-align: center;
+  }
+  .shopifyleft .words p {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .lowestshop {
+    margin-bottom: 20px;
+  }
+  .lowestshop .pmdiv {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .lowestshop .arrowiconshop {
+    margin-bottom: 20px;
+    transform: rotate(90deg);
+  }
+
+  .shopifyright img {
+    height: 380px;
+    width: 100%;
+    object-fit: contain;
+  }
+}
